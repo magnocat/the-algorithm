@@ -48,7 +48,7 @@ rand = "0.8.5"
 rand_pcg = "0.3.1"
 random = "0.12.2"
 sha256 = "1.0.3"
-tonic = { version = "0.6.2", features=['compression', 'tls'] }
+tonic = { version = "0.12.3", features=['compression', 'tls'] }
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread", "fs", "process"] }
 warp = "0.3"
 npyz = "0.7.3"
